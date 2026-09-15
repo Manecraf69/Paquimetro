@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" version="1.1" width="3040" height="1080" viewBox="0 0 3040 1080">
+  <title>Paquímetro — corpo fixo</title>
+  <desc>Base, bico fixo e escalas do desenho original. Use em coordenadas 3040 × 1080.</desc>
+  <defs id="defs5">
+    <marker refX="0" refY="0" orient="auto" style="overflow:visible" id="Dot_l">
+      <path d="M -2.5,-1 C -2.5,1.76 -4.74,4 -7.5,4 C -10.26,4 -12.5,1.76 -12.5,-1 C -12.5,-3.76 -10.26,-6 -7.5,-6 C -4.74,-6 -2.5,-3.76 -2.5,-1 z " transform="matrix(0.8,0,0,0.8,5.92,0.8)" style="fill-rule:evenodd;stroke:black;stroke-width:1pt;marker-start:none;marker-end:none" id="path6189" />
+    </marker>
+  </defs>
+  <g id="corpo-fixo">
+    <path d="m 180.876,244.151 -86.389797,-4.6e-4 c -9.70972,-5e-5 -10.195206,4.85486 -10.195206,10.19521 v 316.6987 L 159.13993,885 c 19.29243,80.92253 46.93402,106.1777 105.19234,106.1777 V 630 h -8 V 501.54956 H 335 v 8 H 2699.2731 V 310.82395 H 335 V 318.824 H 262.57461 V 250.75578 C 262.57461,125.67279 191.24554,52.831429 171,38.445272 V 164.5 h 9.876 z" style="fill:#cccccc;stroke:black;stroke-width:3;fill-opacity:1" id="path1873" ns1:nodetypes="csscscccccccccccscccc" />
+    <text style="font-size:22px;line-height:1.15;font-family:Arial;text-align:center;text-anchor:middle" x="187.2" y="412.7" id="text5811" transform="scale(0.9,1.1)">
+      <tspan ns1:role="line" id="tspan5809" x="187.2" y="412.7">INOX TEMP</tspan>
+      <tspan ns1:role="line" x="187.2" y="438" id="tspan9889">20°C</tspan>
+    </text>
+    <path d="m 218.33227,854.584 c -8.69669,0 -9.59375,3.18567 -9.59375,9.59375 V 977.578 c 15.23078,10.45104 36.72348,13.79501 55.59375,13.5997 V 854.584 Z" style="fill:#e5e5e5;stroke:black;stroke-width:3" id="path2760" ns1:nodetypes="sscccs" />
+    <path d="M 171,38.445272 V 164.5 h 9.87577 l -0.13281,26.03902 h 23.46875 L 203.82108,72.632772 C 195.01269,61.003724 184.41228,48.73254 171,38.445272 Z" style="fill:#e5e5e5;stroke:black;stroke-width:3" id="path2765" />
+    <path id="scale-cm-1" style="stroke:black;stroke-width:2" d="M 296.5 434 v 56 z    m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z " />
+    <path id="scale-cm-10" style="stroke:black;stroke-width:1.5" d="M 309.1 456 v 34 z    m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z " />
+    <path id="scale-cm-2" style="stroke:black;stroke-width:1.75" d="M 359.5 447.5 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z " />
+    <g id="text-cm" style="font-size:40px;font-family:Arial;text-anchor:end">
+      <text x="326.5" y="442" id="text5262">0</text>
+      <text x="412.5" y="442" id="text5266">1</text>
+      <text x="538.5" y="442" id="text5270">2</text>
+      <text x="664.5" y="442" id="text5274">3</text>
+      <text x="790.5" y="442" id="text5278">4</text>
+      <text x="916.5" y="442" id="text5282">5</text>
+      <text x="1042.5" y="442" id="text5286">6</text>
+      <text x="1168.5" y="442" id="text5290">7</text>
+      <text x="1294.5" y="442" id="text5294">8</text>
+      <text x="1420.5" y="442" id="text5298">9</text>
+      <text x="1546.5" y="442" id="text5302">10</text>
+      <text x="1672.5" y="442" id="text5306">11</text>
+      <text x="1798.5" y="442" id="text5310">12</text>
+      <text x="1924.5" y="442" id="text5314">13</text>
+      <text x="2050.5" y="442" id="text5318">14</text>
+      <text x="2176.5" y="442" id="text5322">15</text>
+      <text x="2302.5" y="442" id="text5326">16</text>
+      <text x="2428.5" y="442" id="text5330">17</text>
+      <text x="2554.5" y="442" id="text33701">18</text>
+      <text x="2585" y="437.12396" id="text5334" style="font-size:24px;text-anchor:start">cm</text>
+    </g>
+    <path id="scale-inch-1" style="stroke:black;stroke-width:2" d="M 296.5 327.6 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z " />
+    <path id="scale-inch-16" style="stroke:black;stroke-width:1.5" d="M 316.5 327.6 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z " />
+    <path id="scale-inch-8" style="stroke:black;stroke-width:1.75" d="M 336.5 327.6 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z " />
+    <g id="text-inch" style="font-size:32px;font-family:Arial;text-anchor:end">
+      <text x="325" y="385" id="text5351">0</text>
+      <text x="605" y="385" id="text6277">1</text>
+      <text x="925" y="385" id="text6281">2</text>
+      <text x="1245" y="385" id="text6285">3</text>
+      <text x="1565" y="385" id="text6289">4</text>
+      <text x="1885" y="385" id="text6293">5</text>
+      <text x="2205" y="385" id="text6297">6</text>
+      <text x="2525" y="385" id="text33767">7</text>
+      <text x="2565" y="385" id="text6354" style="font-size:24px;text-anchor:start">inch</text>
+    </g>
+  </g>
+</svg>

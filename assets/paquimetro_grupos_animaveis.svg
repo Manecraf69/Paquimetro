@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="3040" height="1080" viewBox="0 0 3040 1080">
+  <title>Paquímetro universal — grupos separados</title>
+  <desc>Versão agrupada para animação. Mova o grupo cursor-movel horizontalmente com SVG transform.</desc>
+  <defs id="defs5">
+    <marker refX="0" refY="0" orient="auto" style="overflow:visible" id="Dot_l">
+      <path d="M -2.5,-1 C -2.5,1.76 -4.74,4 -7.5,4 C -10.26,4 -12.5,1.76 -12.5,-1 C -12.5,-3.76 -10.26,-6 -7.5,-6 C -4.74,-6 -2.5,-3.76 -2.5,-1 z " transform="matrix(0.8,0,0,0.8,5.92,0.8)" style="fill-rule:evenodd;stroke:black;stroke-width:1pt;marker-start:none;marker-end:none" id="path6189" />
+    </marker>
+  </defs>
+  <g id="corpo-fixo">
+    <path d="m 180.876,244.151 -86.389797,-4.6e-4 c -9.70972,-5e-5 -10.195206,4.85486 -10.195206,10.19521 v 316.6987 L 159.13993,885 c 19.29243,80.92253 46.93402,106.1777 105.19234,106.1777 V 630 h -8 V 501.54956 H 335 v 8 H 2699.2731 V 310.82395 H 335 V 318.824 H 262.57461 V 250.75578 C 262.57461,125.67279 191.24554,52.831429 171,38.445272 V 164.5 h 9.876 z" style="fill:#cccccc;stroke:black;stroke-width:3;fill-opacity:1" id="path1873" ns1:nodetypes="csscscccccccccccscccc" />
+    <text style="font-size:22px;line-height:1.15;font-family:Arial;text-align:center;text-anchor:middle" x="187.2" y="412.7" id="text5811" transform="scale(0.9,1.1)">
+      <tspan ns1:role="line" id="tspan5809" x="187.2" y="412.7">INOX TEMP</tspan>
+      <tspan ns1:role="line" x="187.2" y="438" id="tspan9889">20°C</tspan>
+    </text>
+    <path d="m 218.33227,854.584 c -8.69669,0 -9.59375,3.18567 -9.59375,9.59375 V 977.578 c 15.23078,10.45104 36.72348,13.79501 55.59375,13.5997 V 854.584 Z" style="fill:#e5e5e5;stroke:black;stroke-width:3" id="path2760" ns1:nodetypes="sscccs" />
+    <path d="M 171,38.445272 V 164.5 h 9.87577 l -0.13281,26.03902 h 23.46875 L 203.82108,72.632772 C 195.01269,61.003724 184.41228,48.73254 171,38.445272 Z" style="fill:#e5e5e5;stroke:black;stroke-width:3" id="path2765" />
+    <path id="scale-cm-1" style="stroke:black;stroke-width:2" d="M 296.5 434 v 56 z    m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z " />
+    <path id="scale-cm-10" style="stroke:black;stroke-width:1.5" d="M 309.1 456 v 34 z    m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 25.2 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z m 12.6 0 v 34 z " />
+    <path id="scale-cm-2" style="stroke:black;stroke-width:1.75" d="M 359.5 447.5 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z m 126 0 v 42.5 z " />
+    <g id="text-cm" style="font-size:40px;font-family:Arial;text-anchor:end">
+      <text x="326.5" y="442" id="text5262">0</text>
+      <text x="412.5" y="442" id="text5266">1</text>
+      <text x="538.5" y="442" id="text5270">2</text>
+      <text x="664.5" y="442" id="text5274">3</text>
+      <text x="790.5" y="442" id="text5278">4</text>
+      <text x="916.5" y="442" id="text5282">5</text>
+      <text x="1042.5" y="442" id="text5286">6</text>
+      <text x="1168.5" y="442" id="text5290">7</text>
+      <text x="1294.5" y="442" id="text5294">8</text>
+      <text x="1420.5" y="442" id="text5298">9</text>
+      <text x="1546.5" y="442" id="text5302">10</text>
+      <text x="1672.5" y="442" id="text5306">11</text>
+      <text x="1798.5" y="442" id="text5310">12</text>
+      <text x="1924.5" y="442" id="text5314">13</text>
+      <text x="2050.5" y="442" id="text5318">14</text>
+      <text x="2176.5" y="442" id="text5322">15</text>
+      <text x="2302.5" y="442" id="text5326">16</text>
+      <text x="2428.5" y="442" id="text5330">17</text>
+      <text x="2554.5" y="442" id="text33701">18</text>
+      <text x="2585" y="437.12396" id="text5334" style="font-size:24px;text-anchor:start">cm</text>
+    </g>
+    <path id="scale-inch-1" style="stroke:black;stroke-width:2" d="M 296.5 327.6 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z m 320 0 v 56 z " />
+    <path id="scale-inch-16" style="stroke:black;stroke-width:1.5" d="M 316.5 327.6 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z m 40 0 v 26.5 z " />
+    <path id="scale-inch-8" style="stroke:black;stroke-width:1.75" d="M 336.5 327.6 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z m 40 0 v 31.5 z " />
+    <g id="text-inch" style="font-size:32px;font-family:Arial;text-anchor:end">
+      <text x="325" y="385" id="text5351">0</text>
+      <text x="605" y="385" id="text6277">1</text>
+      <text x="925" y="385" id="text6281">2</text>
+      <text x="1245" y="385" id="text6285">3</text>
+      <text x="1565" y="385" id="text6289">4</text>
+      <text x="1885" y="385" id="text6293">5</text>
+      <text x="2205" y="385" id="text6297">6</text>
+      <text x="2525" y="385" id="text33767">7</text>
+      <text x="2565" y="385" id="text6354" style="font-size:24px;text-anchor:start">inch</text>
+    </g>
+  </g>
+  <g id="cursor-movel">
+    <path d="M 2699.0859,387.31995 L 2946.255,387.31995 L 2946.255,406.08649 L 3011.709,406.08649 L 3011.709,430.8034 L 2698.1704,430.8034 L 2699.0859,387.31995 z " style="fill:#999;stroke:black;stroke-width:3" id="path2821" />
+    <path d="M 558.27988,37.092586 V 164.5 h -11.81349 v 79.651 h 135.28876 v 66.83478 H 479.793 l -2e-5,-90.62405 c -10e-6,-57.44918 17.15383,-127.23597 78.4869,-183.269144 z" style="fill:#b2b2b2;stroke:#000000;stroke-width:3" id="path2770" ns1:nodetypes="cccccccsc" />
+    <path d="m 595.62079,579.8512 0.0436,43.98419 -11.70821,0.19743 V 991.5015 c 0,0 60.00723,9.5861 90.92009,-106.5015 l 56.9377,-213.81916 c 6.70635,-25.18446 22.86998,-35.08279 61.07714,-35.2629 H 1216.6 V 579.8512 Z" style="fill:#cccccc;stroke:#000000;stroke-width:3" id="path3177" ns1:nodetypes="ccccsssccc" />
+    <path d="m 867.16353,589.22436 c 0,0 0,59.6181 0,64.42417 0,4.80607 2.135,6.99172 12.11001,6.99172 9.97501,0 166.97316,6.28218 166.97316,6.28218 0,0 49.8762,32.12717 91.3153,31.92601 47.1452,-0.22886 78.0413,-24.48805 78.0413,-24.48805 l 1.9453,-66.59835 z" style="fill:#b2b2b2;stroke:#000000;stroke-width:3" id="path2813" />
+    <path d="m 911.68694,605.36404 c 0,4.29747 -3.48378,7.78125 -7.78125,7.78125 -4.29747,0 -7.78125,-3.48378 -7.78125,-7.78125 0,-4.29747 3.48378,-7.78125 7.78125,-7.78125 4.29747,0 7.78125,3.48378 7.78125,7.78125 z" style="fill:#808080" id="path6074" ns2:connector-curvature="0" />
+    <path d="m 586.07881,233.65272 0.1486,96.92458 H 1216.6 v -96.92458 z" style="fill:#e5e5e5;stroke:#000000;stroke-width:3" id="rect5932" />
+    <path id="path5937" style="stroke:#000000;stroke-width:2" d="m 608.09375,288.48242 v 41.17383 z m 70.03125,0 v 41.17383 z m 69.34375,0 v 41.17383 z" />
+    <path d="M 586.07881,233.65272 H 1216.6 V 282.3898 H 586.24744 Z" style="fill:#cccccc;stroke:#000000;stroke-width:3" id="path2772" />
+    <path id="path5943" style="stroke:#000000;stroke-width:1.5" d="m 643.08789,303.34766 v 26.54882 z m 70.03125,0 v 26.54882 z" />
+    <path id="path5947" style="stroke:#000000;stroke-width:1px" d="m 626.15234,315.01953 v 15.79297 z m 34.55664,0 v 15.79297 z m 35.01563,0 v 15.79297 z m 34.55859,0 v 15.79297 z" />
+    <g id="text-inch-venier" style="font-size:24px;font-family:Arial;text-anchor:middle" transform="translate(-156,-16)">
+      <text x="775.74396" y="324.15451" id="text5955">0</text>
+      <text x="824.72009" y="324.15448" id="text5959">4</text>
+      <text x="892.67041" y="323.69678" id="text5963">8</text>
+      <text x="970" y="325" id="text5967" style="font-size:20px">1/128 inch</text>
+    </g>
+    <path id="rect2779" style="fill:#e5e5e5;fill-opacity:1;stroke:#000000;stroke-width:3" d="M 586.07117,487.06274 H 1216.6 V 589.0148 H 586.07117 Z" />
+    <path d="m 586.07116,538.3273 v 50.6875 H 1216.6 v -50.6875 z" style="fill:#cdcdcd;fill-opacity:1;stroke:#000000;stroke-width:3" id="rect2781" />
+    <path id="path5972" style="stroke:#000000;stroke-width:2" d="m 658.33789,486.92383 v 41.65234 z m 48.74805,0 v 41.65234 z m 49.20508,0 v 41.65234 z m 49.20507,0 v 41.65234 z m 49.20508,0 v 41.65234 z m 48.51758,0 v 41.65234 z m 49.20508,0 v 41.65234 z m 48.97657,0 v 41.65234 z m 49.2051,0 v 41.65234 z m -441.92972,0.22851 v 46.23047 z m 491.59182,0 v 46.23047 z" />
+    <path id="path5978" style="stroke:#000000;stroke-width:1px" d="m 634.08008,487.38086 v 28.15039 z m 48.74609,0 v 28.15039 z m 49.20508,0 v 28.15039 z m 49.20508,0 v 28.15039 z m 49.20508,0 v 28.15039 z m 48.51757,0 v 28.15039 z m 49.20508,0 v 28.15039 z m 48.97656,0 v 28.15039 z m 49.20508,0 v 28.15039 z m 49.6621,0 v 28.15039 z" />
+    <g id="text-cm-venier" style="font-size:24px;font-family:Arial;text-anchor:middle" transform="translate(0,6)">
+      <text x="613.71088" y="524.17841" id="text6020" style="text-align:right;text-anchor:start">0</text>
+      <text x="648.49762" y="524.17841" id="text6024">1</text>
+      <text x="697.47375" y="523.94952" id="text6028">2</text>
+      <text x="745.99213" y="523.49182" id="text6032">3</text>
+      <text x="795.42596" y="523.94952" id="text6036">4</text>
+      <text x="844.17322" y="523.03406" id="text6040">5</text>
+      <text x="893.37817" y="523.72064" id="text6044">6</text>
+      <text x="942.58313" y="523.72064" id="text6048">7</text>
+      <text x="991.1015" y="524.17841" id="text6052">8</text>
+      <text x="1040.3064" y="524.17841" id="text6056">9</text>
+      <text x="1088.8248" y="524.13977" id="text6060">0</text>
+      <text x="1155" y="505" id="text6064" style="font-size:20px">0.05 mm</text>
+    </g>
+  </g>
+</svg>
