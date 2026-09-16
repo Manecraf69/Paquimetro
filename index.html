@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-BR" data-theme="dark">
 <head>
   <meta charset="utf-8">
@@ -10,6 +10,12 @@
 <body>
   <main aria-label="Simulador de paquímetro">
     <svg id="caliper" viewBox="0 -100 2840 1200" aria-label="Arraste o cursor. Setas ajustam a medida; Home e End movem aos limites.">
+      <foreignObject id="credits" x="1840" y="590" width="859" height="76">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="credits-content">
+          Ilustração adaptada de <a target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Vernier_caliper.svg">Joaquim Alves Gaspar, ed g2s e colaboradores</a> · <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a><br>
+          Referência de interação: <a target="_blank" rel="noopener noreferrer" href="https://www.stefanelli.eng.br/paquimetro-virtual-simulador-milimetro-05/">Prof. Eduardo Stefanelli</a>
+        </div>
+      </foreignObject>
       <g id="instrument">
   <title>Paquímetro universal — grupos separados</title>
   <desc>Camadas: cursor-traseiro (haste e orelha), corpo-fixo, cursor-movel (frente). Aplique a mesma translacao horizontal aos dois grupos do cursor.</desc>
@@ -24,7 +30,7 @@
   </g>
   <g id="corpo-fixo">
     <path d="m 180.876,244.151 -86.389797,-4.6e-4 c -9.70972,-5e-5 -10.195206,4.85486 -10.195206,10.19521 v 316.6987 L 159.13993,885 c 19.29243,80.92253 46.93402,106.1777 105.19234,106.1777 V 630 h -8 V 501.54956 H 335 v 8 H 2699.2731 V 310.82395 H 335 V 318.824 H 262.57461 V 250.75578 H 273 V 220 C 273,125 253,60 204,38.445272 V 244.151 Z" style="fill:#cccccc;stroke:black;stroke-width:3;fill-opacity:1" id="path1873" />
-    <a href="https://www.marciovoss.com" target="_blank" rel="noopener noreferrer" aria-label="Visitar www.marciovoss.com"><text id="text5811" x="175" y="435" transform="rotate(-90 175 435)" textLength="360" lengthAdjust="spacingAndGlyphs" style="font-size:40px;font-family:Arial;text-anchor:middle;cursor:pointer">www.marciovoss.com</text></a>
+    <a href="https://www.marciovoss.com" target="_blank" rel="noopener noreferrer" aria-label="Visitar www.marciovoss.com"><text id="text5811" x="100" y="465" transform="rotate(-90 175 435)" textLength="480" lengthAdjust="spacingAndGlyphs" style="font-size:60px;font-family:Arial;text-anchor:middle;cursor:pointer">www.marciovoss.com</text></a>
     <path d="m 218.33227,854.584 c -8.69669,0 -9.59375,3.18567 -9.59375,9.59375 V 977.578 c 15.23078,10.45104 36.72348,13.79501 55.59375,13.5997 V 854.584 Z" style="fill:#e5e5e5;stroke:black;stroke-width:3" id="path2760" ns1:nodetypes="sscccs" />
     <path d="M 204,38.445272 V 220 H 215 V 55 Z" style="fill:#e5e5e5;stroke:black;stroke-width:3" id="path2765" />
     <path id="scale-cm-1" style="stroke:black;stroke-width:2" d="M 296.5 434 v 56 z    m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z m 126 0 v 56 z " />
@@ -111,7 +117,6 @@
       <button id="toggle-reading" aria-pressed="true" aria-controls="reading"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><span>Esconder medidas</span></button>
     </div>
     <output id="reading" aria-live="polite"><span id="metric-reading"></span><span id="inch-reading" title="Fração aproximada ao 1/128 de polegada mais próximo; decimal convertido da medida em milímetros."></span></output>
-    <footer>Ilustração adaptada de <a target="_blank" rel="noopener noreferrer" href="https://commons.wikimedia.org/wiki/File:Vernier_caliper.svg">Joaquim Alves Gaspar, ed g2s e colaboradores</a> · <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a><br>Referência de interação: <a target="_blank" rel="noopener noreferrer" href="https://www.stefanelli.eng.br/paquimetro-virtual-simulador-milimetro-05/">Prof. Eduardo Stefanelli</a></footer>
   </div>
 </body>
 </html>

@@ -14,14 +14,18 @@ const caliper = document.querySelector('#caliper');
 const reading = document.querySelector('#reading');
 const readingButton = document.querySelector('#toggle-reading');
 const zoomButton = document.querySelector('#toggle-zoom');
+const isMobile = navigator.userAgentData?.mobile === true ||
+  /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent) ||
+  window.matchMedia('(pointer: coarse)').matches;
+document.documentElement.classList.toggle('is-mobile', isMobile);
 let millimeters = 25;
 let showReading = true;
 let zoomed = false;
 let drag = null;
 const metricTicks = [];
 const inchTicks = [];
-let fixedMetricHighlight;
-let fixedInchHighlight;
+let fixedMetricHighlights;
+let fixedInchHighlights;
 
 function svgElement(tag, attributes, text) {
   const element = document.createElementNS('http://www.w3.org/2000/svg', tag);
@@ -33,16 +37,16 @@ function svgElement(tag, attributes, text) {
 // Replace the hand-drawn vernier ticks with exact spacing and align zero
 // with the fixed scale when the external measuring faces touch.
 function calibrateScales() {
-  for (const id of ['path5937', 'path5943', 'path5947', 'text-inch-venier', 'path5972', 'path5978', 'text-cm-venier']) document.getElementById(id)?.remove();
+  for (const id of ['path5937', 'path5943', 'path5947', 'text-inch-venier', 'path5972', 'path5978', 'text-cm-venier', 'path6074']) document.getElementById(id)?.remove();
   const metric = svgElement('g', {fill:'#111', 'font-family':'Arial', 'font-size':22, 'text-anchor':'middle'});
   for (let i = 0; i <= 20; i++) {
     const x = MOVING_ZERO + i * 1.95 * UNITS_PER_MM;
     const tick = svgElement('path', {d:`M ${x} 488 v ${i % 2 === 0 ? 40 : 26}`, stroke:'#111', 'stroke-width':1.5});
     metricTicks.push(tick);
     metric.append(tick);
-    if (i % 2 === 0) metric.append(svgElement('text', {x, y:555}, i / 2));
+    if (i % 2 === 0) metric.append(svgElement('text', {x, y:560}, i / 2));
   }
-  metric.append(svgElement('text', {x:1155, y:574, 'font-size':18}, '0,05 mm'));
+  metric.append(svgElement('text', {x:1170, y:570, 'font-size':18}, '0,05 mm'));
   cursor.append(metric);
   const imperial = svgElement('g', {fill:'#111', 'font-family':'Arial', 'font-size':22, 'text-anchor':'middle'});
   for (let i = 0; i <= 8; i++) {
@@ -50,7 +54,7 @@ function calibrateScales() {
     const tick = svgElement('path', {d:`M ${x} 330 v -${i % 4 === 0 ? 40 : 24}`, stroke:'#111', 'stroke-width':1.5});
     inchTicks.push(tick);
     imperial.append(tick);
-    if (i % 4 === 0) imperial.append(svgElement('text', {x, y:277}, i));
+    if (i % 4 === 0) imperial.append(svgElement('text', {x, y:282}, i));
   }
   imperial.append(svgElement('text', {x:900, y:275}, '1/128 inch'));
   cursor.append(imperial);
@@ -58,9 +62,9 @@ function calibrateScales() {
   for (const id of ['scale-inch-1', 'scale-inch-16', 'scale-inch-8', 'text-inch']) {
     document.getElementById(id).setAttribute('transform', `translate(${FIXED_ZERO} 0) scale(${25.4 * UNITS_PER_MM / 320} 1) translate(${-FIXED_ZERO} 0)`);
   }
-  fixedMetricHighlight = svgElement('path', {stroke:'#e02030', 'stroke-width':2.8, 'pointer-events':'none'});
-  fixedInchHighlight = svgElement('path', {stroke:'#e02030', 'stroke-width':2.8, 'pointer-events':'none'});
-  document.querySelector('#corpo-fixo').append(fixedMetricHighlight, fixedInchHighlight);
+  fixedMetricHighlights = [0, 1].map(() => svgElement('path', {stroke:'#e02030', 'stroke-width':2.8, 'pointer-events':'none'}));
+  fixedInchHighlights = [0, 1].map(() => svgElement('path', {stroke:'#e02030', 'stroke-width':2.8, 'pointer-events':'none'}));
+  document.querySelector('#corpo-fixo').append(...fixedMetricHighlights, ...fixedInchHighlights);
 }
 
 function highlightAlignment() {
@@ -68,20 +72,31 @@ function highlightAlignment() {
   // Inch graduations use 1/128: highlight the nearest pair because the
   // metric 0.05 mm increments do not always coincide exactly in inches.
   const inchIndex = Math.round(millimeters / 25.4 * 128) % 8;
-  for (const [ticks, selected] of [[metricTicks, metricIndex], [inchTicks, inchIndex]]) {
+  const selectedMetricIndices = metricIndex === 0 ? new Set([0, 20]) : new Set([metricIndex]);
+  const selectedInchIndices = inchIndex === 0 ? new Set([0, 8]) : new Set([inchIndex]);
+  for (const [ticks, selectedIndices] of [[metricTicks, selectedMetricIndices], [inchTicks, selectedInchIndices]]) {
     ticks.forEach((tick, index) => {
-      const active = showReading && index === selected;
+      const active = showReading && selectedIndices.has(index);
       tick.setAttribute('stroke', active ? '#e02030' : '#111');
       tick.setAttribute('stroke-width', active ? 2.8 : 1.5);
     });
   }
-  const mmMark = Math.round(millimeters + metricIndex * 1.95);
-  const mmLength = mmMark % 10 === 0 ? 56 : mmMark % 5 === 0 ? 42.5 : 34;
-  fixedMetricHighlight.setAttribute('d', `M ${FIXED_ZERO + mmMark * UNITS_PER_MM} ${490-mmLength} v ${mmLength}`);
-  const inchMark = Math.round(millimeters / 25.4 * 16 + inchIndex * 7 / 8);
-  const inchLength = inchMark % 16 === 0 ? 56 : inchMark % 2 === 0 ? 31.5 : 26.5;
-  fixedInchHighlight.setAttribute('d', `M ${FIXED_ZERO + inchMark / 16 * 25.4 * UNITS_PER_MM} 327.6 v ${inchLength}`);
-  for (const line of [fixedMetricHighlight, fixedInchHighlight]) line.setAttribute('visibility', showReading ? 'visible' : 'hidden');
+  const metricMarks = metricIndex === 0
+    ? [Math.round(millimeters), Math.round(millimeters + 20 * 1.95)]
+    : [Math.round(millimeters + metricIndex * 1.95)];
+  metricMarks.forEach((mmMark, index) => {
+    const mmLength = mmMark % 10 === 0 ? 56 : mmMark % 5 === 0 ? 42.5 : 34;
+    fixedMetricHighlights[index].setAttribute('d', `M ${FIXED_ZERO + mmMark * UNITS_PER_MM} ${490-mmLength} v ${mmLength}`);
+  });
+  const inchMarks = inchIndex === 0
+    ? [Math.round(millimeters / 25.4 * 16), Math.round(millimeters / 25.4 * 16 + 8 * 7 / 8)]
+    : [Math.round(millimeters / 25.4 * 16 + inchIndex * 7 / 8)];
+  inchMarks.forEach((inchMark, index) => {
+    const inchLength = inchMark % 16 === 0 ? 56 : inchMark % 2 === 0 ? 31.5 : 26.5;
+    fixedInchHighlights[index].setAttribute('d', `M ${FIXED_ZERO + inchMark / 16 * 25.4 * UNITS_PER_MM} 327.6 v ${inchLength}`);
+  });
+  fixedMetricHighlights.forEach((line, index) => line.setAttribute('visibility', showReading && index < metricMarks.length ? 'visible' : 'hidden'));
+  fixedInchHighlights.forEach((line, index) => line.setAttribute('visibility', showReading && index < inchMarks.length ? 'visible' : 'hidden'));
 }
 
 function formatInches(mm) {
@@ -99,11 +114,12 @@ function updateCamera() {
   const {width, height} = caliper.getBoundingClientRect();
   if (!width || !height) return;
   // Frame the instrument, never the extending depth rod.
-  const scale = Math.min(width / (zoomed ? 760 : 2840), height / (zoomed ? 540 : 1260));
+  // In zoom mode, use the empty upper area to give the vernier more prominence.
+  const scale = Math.min(width / (zoomed ? 620 : 2840), height / (zoomed ? 450 : 1260));
   const viewWidth = width / scale;
   const viewHeight = height / scale;
   const centerX = zoomed ? FIXED_ZERO + millimeters * UNITS_PER_MM + 245 : 1420;
-  const centerY = zoomed ? 420 : 510;
+  const centerY = zoomed ? 470 : 510;
   caliper.setAttribute('viewBox', [centerX-viewWidth/2, centerY-viewHeight/2, viewWidth, viewHeight].join(' '));
 }
 
