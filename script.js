@@ -14,6 +14,9 @@ const caliper = document.querySelector('#caliper');
 const reading = document.querySelector('#reading');
 const readingButton = document.querySelector('#toggle-reading');
 const zoomButton = document.querySelector('#toggle-zoom');
+const credits = document.querySelector('#credits');
+const mobileCredits = document.querySelector('#mobile-credits');
+const creditsContent = credits.querySelector('.credits-content');
 const isMobile = navigator.userAgentData?.mobile === true ||
   /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent) ||
   window.matchMedia('(pointer: coarse)').matches;
@@ -113,14 +116,30 @@ function formatInches(mm) {
 function updateCamera() {
   const {width, height} = caliper.getBoundingClientRect();
   if (!width || !height) return;
+  const portrait = isMobile && height >= width;
+  document.documentElement.classList.toggle('is-mobile-landscape', isMobile && !portrait);
+  const creditsParent = portrait ? mobileCredits : credits;
+  if (creditsContent.parentNode !== creditsParent) creditsParent.append(creditsContent);
+  mobileCredits.hidden = !portrait;
+  credits.hidden = portrait;
   // Frame the instrument, never the extending depth rod.
   // In zoom mode, use the empty upper area to give the vernier more prominence.
-  const scale = Math.min(width / (zoomed ? 620 : 2840), height / (zoomed ? 450 : 1260));
+  const creditsHeight = portrait ? mobileCredits.getBoundingClientRect().height : 0;
+  const controlsHeight = portrait ? Math.max(76, reading.getBoundingClientRect().height) + 24 : 0;
+  const instrumentHeight = portrait && !zoomed
+    ? Math.max(1, height - 2 * (creditsHeight + controlsHeight + 24)) : height;
+  const scale = Math.min(width / (zoomed ? 620 : 2840), instrumentHeight / (zoomed ? 450 : 1260));
   const viewWidth = width / scale;
   const viewHeight = height / scale;
   const centerX = zoomed ? FIXED_ZERO + millimeters * UNITS_PER_MM + 245 : 1420;
   const centerY = zoomed ? 470 : 510;
   caliper.setAttribute('viewBox', [centerX-viewWidth/2, centerY-viewHeight/2, viewWidth, viewHeight].join(' '));
+  if (portrait) {
+    const jawBottom = height / 2 + (992 - centerY) * scale;
+    // Zoom crops the jaws; keep the credits above the bottom controls in that view.
+    const creditsTop = Math.min(jawBottom + 16, height - controlsHeight - creditsHeight - 12);
+    mobileCredits.style.top = `${Math.max(12, creditsTop)}px`;
+  }
 }
 
 function render() {
