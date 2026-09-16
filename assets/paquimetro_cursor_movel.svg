@@ -1,15 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns2="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="3040" height="1080" viewBox="0 0 3040 1080">
   <title>Paquímetro — cursor móvel</title>
-  <desc>Cursor, bico móvel, nônio e haste de profundidade. Sobreponha ao corpo fixo; ambos compartilham o mesmo viewBox.</desc>
+  <desc>Camadas: cursor-traseiro (haste e orelha), corpo-fixo, cursor-movel (frente). Aplique a mesma translacao horizontal aos dois grupos do cursor.</desc>
   <defs id="defs5">
     <marker refX="0" refY="0" orient="auto" style="overflow:visible" id="Dot_l">
       <path d="M -2.5,-1 C -2.5,1.76 -4.74,4 -7.5,4 C -10.26,4 -12.5,1.76 -12.5,-1 C -12.5,-3.76 -10.26,-6 -7.5,-6 C -4.74,-6 -2.5,-3.76 -2.5,-1 z " transform="matrix(0.8,0,0,0.8,5.92,0.8)" style="fill-rule:evenodd;stroke:black;stroke-width:1pt;marker-start:none;marker-end:none" id="path6189" />
     </marker>
   </defs>
+  <g id="cursor-traseiro">
+    <path d="M 616.12392,387.31995 H 2953.44302 V 406.08649 H 3018.89702 V 430.8034 H 616.12392 Z" style="fill:#999;stroke:black;stroke-width:3" id="path2821" />
+    <path d="M 523.62392,38.445272 V 244.151 H 681.75515 V 310.98578 H 479.793 V 244.151 H 454.62392 V 220 C 454.62392,125 474.62392,60 523.62392,38.445272 Z" style="fill:#b2b2b2;stroke:#000000;stroke-width:3" id="path2770" />
+  </g>
   <g id="cursor-movel">
-    <path d="M 2699.0859,387.31995 L 2946.255,387.31995 L 2946.255,406.08649 L 3011.709,406.08649 L 3011.709,430.8034 L 2698.1704,430.8034 L 2699.0859,387.31995 z " style="fill:#999;stroke:black;stroke-width:3" id="path2821" />
-    <path d="M 558.27988,37.092586 V 164.5 h -11.81349 v 79.651 h 135.28876 v 66.83478 H 479.793 l -2e-5,-90.62405 c -10e-6,-57.44918 17.15383,-127.23597 78.4869,-183.269144 z" style="fill:#b2b2b2;stroke:#000000;stroke-width:3" id="path2770" ns1:nodetypes="cccccccsc" />
     <path d="m 595.62079,579.8512 0.0436,43.98419 -11.70821,0.19743 V 991.5015 c 0,0 60.00723,9.5861 90.92009,-106.5015 l 56.9377,-213.81916 c 6.70635,-25.18446 22.86998,-35.08279 61.07714,-35.2629 H 1216.6 V 579.8512 Z" style="fill:#cccccc;stroke:#000000;stroke-width:3" id="path3177" ns1:nodetypes="ccccsssccc" />
     <path d="m 867.16353,589.22436 c 0,0 0,59.6181 0,64.42417 0,4.80607 2.135,6.99172 12.11001,6.99172 9.97501,0 166.97316,6.28218 166.97316,6.28218 0,0 49.8762,32.12717 91.3153,31.92601 47.1452,-0.22886 78.0413,-24.48805 78.0413,-24.48805 l 1.9453,-66.59835 z" style="fill:#b2b2b2;stroke:#000000;stroke-width:3" id="path2813" />
     <path d="m 911.68694,605.36404 c 0,4.29747 -3.48378,7.78125 -7.78125,7.78125 -4.29747,0 -7.78125,-3.48378 -7.78125,-7.78125 0,-4.29747 3.48378,-7.78125 7.78125,-7.78125 4.29747,0 7.78125,3.48378 7.78125,7.78125 z" style="fill:#808080" id="path6074" ns2:connector-curvature="0" />
