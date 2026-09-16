@@ -52,6 +52,7 @@ html, body {
   overflow: clip;
   overscroll-behavior: none;
   scrollbar-width: none;
+  touch-action: none;
 }
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   display: none;
@@ -68,6 +69,7 @@ main, .ui-layer {
 }
 main {
   overflow: hidden;
+  overflow: clip;
 }
 #caliper {
   display: block;
@@ -334,17 +336,8 @@ html[data-theme="dark"] button:focus-visible, html[data-theme="dark"] a:focus-vi
 :root:not(.is-mobile) .toolbar button span { display:inline; }
 :root:not(.is-mobile) #reading { right:calc(526px + max(22px,env(safe-area-inset-right)) + 10px); }
 
-/* Portrait credits use screen pixels so the SVG cannot shrink their text. */
-#mobile-credits {
-  position: absolute;
-  left: max(12px, env(safe-area-inset-left));
-  right: max(12px, env(safe-area-inset-right));
-  color: #284638;
-  font: 12px/1.5 "Segoe UI", Arial, sans-serif;
-  text-align: center;
-  pointer-events: auto;
-}
-html[data-theme="dark"] #mobile-credits { color: #d8c9e4; }
+/* Mobile credits share the instrument camera and remain behind its geometry. */
+.is-mobile #credits .credits-content { text-align: center; }
 
 /* Keep the reading and buttons in one row in either mobile orientation. */
 .is-mobile-landscape .controls {
